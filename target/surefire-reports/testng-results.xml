@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Test Automation Suite" duration-ms="8265" started-at="2022-05-21T17:07:01 CDT" finished-at="2022-05-21T17:07:09 CDT">
+    <groups>
+    </groups>
+    <test name="MavenSeleniumTestNG" duration-ms="8265" started-at="2022-05-21T17:07:01 CDT" finished-at="2022-05-21T17:07:09 CDT">
+      <class name="selenium.SelenumTests">
+        <test-method status="PASS" signature="lanuchBrowser()[pri:0, instance:selenium.SelenumTests@6c49835d]" name="lanuchBrowser" is-config="true" duration-ms="3118" started-at="2022-05-21T17:06:58 CDT" finished-at="2022-05-21T17:07:01 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:selenium.SelenumTests@6c49835d]" name="login" is-config="true" duration-ms="1771" started-at="2022-05-21T17:07:01 CDT" finished-at="2022-05-21T17:07:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:selenium.SelenumTests@6c49835d]" name="getTitle" duration-ms="10" started-at="2022-05-21T17:07:03 CDT" finished-at="2022-05-21T17:07:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:selenium.SelenumTests@6c49835d]" name="logOut" is-config="true" duration-ms="853" started-at="2022-05-21T17:07:03 CDT" finished-at="2022-05-21T17:07:04 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:selenium.SelenumTests@6c49835d]" name="closeBrowser" is-config="true" duration-ms="72" started-at="2022-05-21T17:07:09 CDT" finished-at="2022-05-21T17:07:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- selenium.SelenumTests -->
+      <class name="selenium.WebsiteLink">
+        <test-method status="PASS" signature="getTheWebsite()[pri:0, instance:selenium.WebsiteLink@76707e36]" name="getTheWebsite" is-config="true" duration-ms="4532" started-at="2022-05-21T17:07:04 CDT" finished-at="2022-05-21T17:07:08 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTheWebsite -->
+        <test-method status="PASS" signature="clickForgotPasswordLink()[pri:0, instance:selenium.WebsiteLink@76707e36]" name="clickForgotPasswordLink" duration-ms="410" started-at="2022-05-21T17:07:08 CDT" finished-at="2022-05-21T17:07:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickForgotPasswordLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:selenium.WebsiteLink@76707e36]" name="closeBrowser" is-config="true" duration-ms="640" started-at="2022-05-21T17:07:09 CDT" finished-at="2022-05-21T17:07:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- selenium.WebsiteLink -->
+    </test> <!-- MavenSeleniumTestNG -->
+  </suite> <!-- TestNG Test Automation Suite -->
+</testng-results>
