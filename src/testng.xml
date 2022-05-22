@@ -3,8 +3,9 @@
 <suite name="TestNG Test Automation Suite">
     <test name="MavenSeleniumTestNG">
         <classes>
-            <class name="selenium.SelenumTests"/>
-            <class name="selenium.WebsiteLink"/>
+            <class name="test.java.selenium.SeleniumTests"/>
+            <class name="test.java.selenium.WebsiteLink"/>
+            <class name="test.java.selenium.TestBraveBrowser"></class>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

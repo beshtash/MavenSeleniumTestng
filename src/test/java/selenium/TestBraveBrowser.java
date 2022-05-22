@@ -1,20 +1,23 @@
-package selenium;
+package test.java.selenium;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
-public class SelenumTests {
+public class TestBraveBrowser {
     WebDriver driver;
     @BeforeSuite
     public void lanuchBrowser() {
         WebDriverManager.chromedriver().setup();
         //System.setProperty("webdriver.chrome.driver", "/home/dastan/Downloads/chromedriver");
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.setBinary("/opt/brave.com/brave/brave");
+        driver = new ChromeDriver(options);
         System.out.println("Browser is launched.");
         driver.manage().window().maximize();
         driver.get("https://opensource-demo.orangehrmlive.com/");
